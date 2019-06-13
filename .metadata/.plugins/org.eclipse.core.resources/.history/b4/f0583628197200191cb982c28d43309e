@@ -1,0 +1,27 @@
+package test.logical;
+
+public class ReverseStringProgram {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        reverseStringgetBytes("dheeraj");
+        reverseStringtoCharArray("dheeraj");
+	}
+
+	public static void reverseStringtoCharArray(String input)
+	{
+		
+	}
+	public static void reverseStringgetBytes(String input)
+	{
+		byte[] inputByteString=input.getBytes();
+		byte[] resultData=new byte[inputByteString.length];
+		
+		for (int i = 0; i < inputByteString.length; i++) {
+			resultData[i]=inputByteString[(inputByteString.length-1)-i];
+			
+		}
+		System.out.print("\n "+new String(resultData));		
+		
+	}
+}
