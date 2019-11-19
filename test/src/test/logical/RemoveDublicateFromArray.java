@@ -20,8 +20,11 @@ public class RemoveDublicateFromArray {
 	public static Integer[] removeDublicateValue(Integer[] inputarr)
 	{
 		Integer[] removeDublicate= new Integer[inputarr.length];
+		
 		int previousElement=inputarr[0];
+		
 		removeDublicate[0]=previousElement;
+		
 		 for(int i=1;i<inputarr.length;i++) {
 			 int element=inputarr[i];
 			 if(element !=previousElement) {

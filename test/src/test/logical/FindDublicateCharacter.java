@@ -27,7 +27,6 @@ public class FindDublicateCharacter {
 		for(int i=0;i<arr.length;i++) {
 			count[arr[i]]=count[arr[i]]+1;
 		}
-		
 		for (int i = 0; i < count.length; i++) {
 			if(count[i]>1) {
 				System.out.printf("%c,%d ",i,count[i]);

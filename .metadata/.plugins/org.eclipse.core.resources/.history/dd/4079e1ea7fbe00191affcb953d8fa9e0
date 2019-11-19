@@ -1,0 +1,15 @@
+package test.logical;
+
+
+
+public class OddEvenRunnable implements Runnable {
+
+	public OddEvenRunnable() {
+	}
+
+	@Override
+	public void run() {
+		
+	}
+
+}

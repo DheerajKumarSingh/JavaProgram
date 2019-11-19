@@ -7,7 +7,6 @@ import test.logical.datastructure.BinaryTree1.NoteTree;
 class InOrderTraverseBinaryTree {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		BinaryTree1 binaryTree1=new BinaryTree1();
 		
@@ -68,7 +67,6 @@ class InOrderTraverseBinaryTree {
 		inOrderTraverseRecursive(root.left);
 		System.out.print(""+root.data);
 		inOrderTraverseRecursive(root.right);
-	
 	}
 	
 	

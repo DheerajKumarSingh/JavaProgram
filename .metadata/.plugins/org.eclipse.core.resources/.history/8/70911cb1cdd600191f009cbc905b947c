@@ -1,0 +1,23 @@
+package linkedlist;
+
+public class SinglyLinkedList {
+	
+	Node head;
+	Node tail;
+
+	public SinglyLinkedList() {
+		
+		head=null;
+		tail=null;
+	}
+	
+	
+	
+	
+	
+	 class Node{
+		Node next;
+		int data;
+	}
+
+}

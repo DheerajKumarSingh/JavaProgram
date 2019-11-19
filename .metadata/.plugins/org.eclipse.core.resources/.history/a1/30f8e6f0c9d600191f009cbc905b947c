@@ -1,0 +1,17 @@
+package linkedlist;
+
+public class SinglyLinkedList {
+
+	public SinglyLinkedList() {
+	}
+	
+	
+	
+	
+	
+	 class Node{
+		Node next;
+		int data;
+	}
+
+}

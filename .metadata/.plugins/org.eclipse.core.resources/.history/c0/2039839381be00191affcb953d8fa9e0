@@ -1,0 +1,31 @@
+package test.logical;
+
+
+
+public class OddEvenRunnable implements Runnable {
+	
+	
+	public static int number=1;
+	int remainder;
+
+	public OddEvenRunnable(int remainder) {
+		this.remainder=remainder;
+	}
+
+	@Override
+	public void run() {
+		
+		
+		
+		
+		while (number<20) {
+			
+			
+		}
+		
+			
+		}
+		
+	
+
+}

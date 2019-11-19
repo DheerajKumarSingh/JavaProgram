@@ -1,0 +1,14 @@
+package tree;
+
+public class PreOrderTraverse {
+
+	public PreOrderTraverse() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

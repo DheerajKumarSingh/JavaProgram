@@ -1,0 +1,38 @@
+package linkedlist;
+
+public class SinglyLinkedList {
+	
+	Node head;
+
+	public SinglyLinkedList() {
+		head=null;
+	}
+	
+	
+	
+	void insertNode(int data) {
+		
+		// check if list is empty 
+		
+		if(head==null) {
+			Node newNode=createNode(data);
+			
+		}
+		
+		
+	}
+	
+	Node createNode(int data) {
+		Node node=new Node();
+		node.data=data;
+		node.next=null;
+		return node;
+	}
+	
+	
+	 class Node{
+		Node next;
+		int data;
+	}
+
+}

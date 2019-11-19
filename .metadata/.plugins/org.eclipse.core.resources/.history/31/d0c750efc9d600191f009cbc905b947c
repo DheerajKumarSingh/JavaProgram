@@ -1,0 +1,18 @@
+package linkedlist;
+
+public class SinglyLinkedList {
+
+	public SinglyLinkedList() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+	
+	
+	 class Node{
+		Node next;
+		int data;
+	}
+
+}

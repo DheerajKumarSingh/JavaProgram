@@ -6,14 +6,8 @@ public class SumClosestToZero {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		method1();
-
 	}
 	
-	
-
-	
-
-
 
 	private static void swap(int i, int j) {
 		// TODO Auto-generated method stub

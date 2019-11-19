@@ -91,7 +91,7 @@ public class DoubleLinkedList {
 	void traverse()
 	{
 		Node temp=head;
-		while(temp!=null) {
+		while(temp.next!=null) {
 			System.out.print("inserted data"+temp.data+"\n");
 			temp=temp.next;
 		}

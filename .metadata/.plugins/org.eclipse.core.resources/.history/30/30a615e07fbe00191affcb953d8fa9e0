@@ -1,0 +1,9 @@
+package test.logical;
+
+public class OddEvenRunnable {
+
+	public OddEvenRunnable() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

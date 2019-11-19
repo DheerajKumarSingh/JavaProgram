@@ -1,0 +1,29 @@
+package tree;
+
+public class PreOrderTraverse {
+	
+	
+	
+	
+	
+	
+	public PreOrderTraverse() {
+	}
+
+	public static void main(String[] args) {
+
+	}
+	
+	
+	
+	public static class Node{
+		
+		Node leftNode;
+		Node rightNode;
+		Node root;
+		
+		
+	}
+	
+
+}

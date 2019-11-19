@@ -1,0 +1,18 @@
+package tree;
+
+public class BinaryTree {
+	
+	TreeNode root;
+	TreeNode leftNode;
+	TreeNode rightNode;
+	
+
+	public BinaryTree() {
+		leftNode=rightNode=null;
+	}
+	
+	static class TreeNode {
+		TreeNode leftNode,rightNode;
+		int data;
+	}
+}

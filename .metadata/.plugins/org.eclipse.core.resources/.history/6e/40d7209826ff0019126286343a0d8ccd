@@ -1,0 +1,87 @@
+package tree;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class ZigZapTraversal {
+
+	public ZigZapTraversal() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Integer a[] = {6, 1, 3, 4, 5, 6, 8, 2, 7};
+
+        function(a, 3,2);
+
+	}
+	
+	public static void function(Integer[] a, int k, int l){
+		if(aliceTrees+bobTrees &gt; trees.length) {
+            return -1 ;
+        }
+
+        int aliceMaxApples = 0;
+        int aliceMaxIndex = 0;
+        int aliceMinIndex = 0;
+        int bobMaxApples = 0;
+
+        for (int treeIndex = 0; treeIndex trees.length)
+                break;
+
+            int aliceTempIndex =0 ;
+            for (int i = treeIndex; i trees.length)
+                break;
+            for (int i = treeIndex; i aliceMaxIndex) {
+                    bobApples += trees[i];
+                } else {
+                    //bobApples = 0;
+                    //bobMaxApples = 0;
+                    continue;
+                }
+                if (bobMaxApples &lt; bobApples) {
+                    bobMaxApples = bobApples;
+                    //aliceMaxIndex = l;
+                }
+
+            }
+        }
+
+        //System.out.println("aliceMaxIndex = " + aliceMaxIndex);
+        System.out.println("bobMaxApples = " + bobMaxApples);
+        return bobMaxApples + aliceMaxApples;
+    }
+
+    static Integer[] getMaxContiguosFromArray(Integer[] a, int numberOrElements){
+        int sumForFirst = 0;
+        int sumForFirstPrev = 0;
+        int startingIndexForK = 0;
+        Integer[] maxAndStartingIndex = new Integer[2];
+        for(int i = 0; i < a.length; i++){
+            if(i <= a.length - numberOrElements) {
+                for (int j = i; j < i + numberOrElements; j++) {
+                    sumForFirst += a[j];
+                }
+            }
+
+            if(sumForFirst >  sumForFirstPrev) {
+                sumForFirstPrev = sumForFirst;
+                startingIndexForK = i;
+
+            }
+            sumForFirst = 0;
+        }
+        maxAndStartingIndex[0] = sumForFirstPrev;
+        maxAndStartingIndex[1] = startingIndexForK;
+        return maxAndStartingIndex;
+    
+}
+
+	
+
+	
+
+}
